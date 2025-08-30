@@ -59,18 +59,20 @@ combined_score = (0.6 * gpt_score) + (0.4 * emb_score) - Adjust GPT vs embedding
 ---
 
 ##  🗂  Project Structure
-.
-├── cvs/                     # Folder for CV PDFs (not committed to git)
-│   └── sample_cv.pdf        # An anonymized example
-├── jobs/
-│   └── job_postings.csv     # Job postings CSV
-├── embeddings_cache.pkl     # Pickled embeddings cache (ignored by git)
-├── cvmatcher.py             # Main script
-├── requirements.txt         # Python dependencies
-├── .gitignore               # Git ignore rules
-├── LICENSE                  # License file (MIT by default)
-└── README.md                # This file
 
+```text
+.
+├── cvs/                  # Folder for CV PDFs (not committed to git)
+│   └── sample_cv.pdf     # An anonymized example
+├── jobs/
+│   └── job_postings.csv  # Job postings CSV
+├── embeddings_cache.pkl  # Pickled embeddings cache (ignored by git)
+├── cvmatcher.py          # Main script
+├── requirements.txt      # Python dependencies
+├── .gitignore            # Git ignore rules
+├── LICENSE               # License file (MIT by default)
+└── README.md             # This file
+```
 ---
 
 🔑 Requirements
